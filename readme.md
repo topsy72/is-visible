@@ -1,6 +1,6 @@
 ## Motivation
-I needed to hide or to show some elements on a page.
-Here is a simple plugin that checks if  element is visible in the viewport.
+Bassicly I needed to know if some element is visible in the viewport or not in order to run other features.
+Here is a simple plugin that checks if element is visible in the viewport.
 It returns true if any portion of the element is visible in the viewport, or false if it's not visible.
 It considers element’s position and dimension compared to dimension and scroll position of window.
 

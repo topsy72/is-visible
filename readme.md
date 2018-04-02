@@ -16,7 +16,7 @@ Just include isVisible.js just before the ending body tag and have fun :)
 
 ## Running the tests
 
-Simple check. Simple onscroll function that checks visibility and log's it in the console
+Simple check. Simple onscroll function that checks visibility and log's it in the console.
 
 $(window).on('scroll',function() {
     var visibilityStatus = $('.elementClass').isVisible();

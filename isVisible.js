@@ -1,4 +1,5 @@
-$.fn.isVisible = function(){			
+$.fn.isVisible = function(){	
+    		
     var screenView = $(window);    
     var viewport = {
             top : screenView.scrollTop(),

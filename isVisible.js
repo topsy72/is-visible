@@ -12,5 +12,6 @@ $.fn.isVisible = function(){
     bounds.right = bounds.left + this.outerWidth();
     bounds.bottom = bounds.top + this.outerHeight();
     
+    //return true or false depending if the file is in viewport or not    
     return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));    
 };
